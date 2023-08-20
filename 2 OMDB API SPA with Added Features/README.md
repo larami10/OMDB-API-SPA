@@ -13,12 +13,15 @@ This version of the OMDB API SPA utilizes the OMDB API and features:
 8. User can select to display the response in JSON or XML.
 9. User will be shown an error message if an invalid title string or imdbID.
 10. At the very bottom of the Response, the user will be given 5 movie recommendations based on the searched title's plot.
-11. After the second search, path-based breadcrumbs:
+11. sessionStorage is used to keep track of all searched items and add them to the path-based breadcrumbs.
+    1. The sessionStorage is cleared when the application first starts and when the page is refreshed.
+12. After the second search, path-based breadcrumbs:
     1. will be displayed by DOM manipulation at the top of the form.
     2. can be used to go back to a previous search.
-12. After a search is made, a Bookmark drop down will be added to the top of the form that allows the user to:
+13. After a search is made, a Bookmark drop down will be added to the top of the form that allows the user to:
     1. rate the current movie being displayed.
     2. modify the rating if one already exists.
+    3. The rating is saved to the localStorage.
 
 > **_NOTE:_** An easy way to test the imdbID search is to get the imdbID from a title search.
 
