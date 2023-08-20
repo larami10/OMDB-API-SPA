@@ -24,10 +24,4 @@ This version of the OMDB API SPA utilizes the OMDB API and features:
 
 ## How to use the Project
 
-You can clone the repository and cd into the project folder:
-
-```
-cd OMDB-API-SPA with Added Features
-```
-
-From the OMDB-API-SPA with Added Features folder, open the OMDB-API-SPA.html file in a browser and begin using the project.
+The [OMDB API SPA](https://omdb-api-spa.web.app/) is now being hosted on Firebase.
